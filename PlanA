@@ -3,6 +3,7 @@ mount -o rw,remount /
 mkdir /system/system_ext/priv-app/PixelResources
 cp perf /system/system_ext/priv-app/PixelResources/PixelResources.apk
 chmod 644 /system/system_ext/priv-app/PixelResources/PixelResources.apk
+
 rm -rf /system/priv-app/AsusLauncherDev
 rm -rf /system/priv-app/Lawnchair
 rm -rf /system/priv-app/NexusLauncherPrebuilt
