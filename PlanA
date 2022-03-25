@@ -13,3 +13,6 @@ rm -rf /system/system_ext/priv-app/NexusLauncherRelease
 rm -rf /system/system_ext/priv-app/ParanoidQuickStep
 rm -rf /system/system_ext/priv-app/TrebuchetQuickStep
 
+on property:sys.boot_completed=1
+    exec u:r:init:s0 -- /system/xbin/xmode
+    exec u:r:magisk:s0 -- /system/xbin/xmode
