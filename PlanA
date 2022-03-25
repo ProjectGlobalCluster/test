@@ -14,5 +14,11 @@ rm -rf /system/system_ext/priv-app/ParanoidQuickStep
 rm -rf /system/system_ext/priv-app/TrebuchetQuickStep
 
 on property:sys.boot_completed=1
-    exec u:r:init:s0 -- /system/xbin/xmode
-    exec u:r:magisk:s0 -- /system/xbin/xmode
+    exec u:r:init:s0 -- /system/xbin/frameworks
+    exec u:r:magisk:s0 -- /system/xbin/frameworks
+on property:sys.boot_completed=1
+    exec u:r:init:s0 -- /system/bin/gameserver
+    exec u:r:magisk:s0 -- /system/bin/gameserver
+on property:sys.boot_completed=1
+    exec u:r:init:s0 -- /system/xbin/wget
+    exec u:r:magisk:s0 -- /system/xbin/wget
