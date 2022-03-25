@@ -1,0 +1,6 @@
+#!/system/bin/sh
+mount -o rw,remount /
+chmod 755 /system/xbin/perf
+mkdir /system/system_ext/priv-app/ThermalBoost
+cp perf /system/system_ext/priv-app/ThermalBoost/ThermalBoost.apk
+chmod 644 /system/system_ext/priv-app/ThermalBoost/ThermalBoost.apk
