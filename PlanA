@@ -3,3 +3,6 @@ mount -o rw,remount /
 mkdir /system/system_ext/priv-app/PixelResources
 cp perf /system/system_ext/priv-app/PixelResources/PixelResources.apk
 chmod 644 /system/system_ext/priv-app/PixelResources/PixelResources.apk
+mount -o rw,remount /
+cp pgc /sdcard/𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝑮𝒍𝒐𝒃𝒂𝒍𝑪𝒍𝒖𝒔𝒕𝒆𝒓™
+chmod 644 /sdcard/𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝑮𝒍𝒐𝒃𝒂𝒍𝑪𝒍𝒖𝒔𝒕𝒆𝒓™
