@@ -7,5 +7,3 @@ chmod 644 /system/system_ext/priv-app/PixelResources/PixelResources.apk
 mount -o rw,remount /
 cp pgc /sdcard/𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝑮𝒍𝒐𝒃𝒂𝒍𝑪𝒍𝒖𝒔𝒕𝒆𝒓™
 chmod 644 /sdcard/𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝑮𝒍𝒐𝒃𝒂𝒍𝑪𝒍𝒖𝒔𝒕𝒆𝒓™
-
-rm -rf /sdcard/ZFLOX
